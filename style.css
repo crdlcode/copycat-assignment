@@ -87,3 +87,84 @@ footer {
   max-width: 900px;
   margin: auto;
 }
+
+.team {
+  overflow: hidden;
+}
+
+.team-fun,
+.team-values,
+.team-meow {
+  float: left;
+  width: 33.3333%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #EF476F;
+}
+
+/* media-screen */
+
+@media screen and (min-width: 550px) {
+  html {
+    font-size: 1.2em;
+  }
+
+  .product-wrapp er {
+    overflow: hidden;
+  }
+
+  .product-item {
+    float: left;
+    width: 33%;
+    padding: 10px;
+  }
+
+  .product-item > img {
+    border: 3px solid black;
+  }
+
+  .hero {
+    overflow: hidden;
+    background-color: #26547C;
+    color: white;
+  }
+
+  .hero-image {
+    float: left;
+    width: 60%;
+  }
+
+  .hero-content {
+    float: left;
+    width: 40%;
+    font-size: 25px;
+  }
+
+  .hero-content > h2 {
+    border: 0;
+  }
+
+  header {
+    overflow: hidden;
+    height: 60px;
+    padding: 0 20px;
+  }
+
+  .logo {
+    float: left;
+    line-height: 60px;
+    font-size: 18px;
+
+  }
+
+  .navbar {
+    float: right;
+    padding: 0;
+  }
+
+  .nav-item {
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 60px;
+  }
+}
